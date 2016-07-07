@@ -20,9 +20,13 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li>@Html.ActionLink("Home", "Index", "Home", new { @class = "f btn-primary" })</li>
                     <li>@Html.ActionLink("About", "About", "Home")</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    <li>@Html.ActionLink("Student", "Index", "Students")</li>
+                    <li>@Html.ActionLink("Course", "Index", "Courses")</li>
+                    <li>@Html.ActionLink("Department", "Index", "Departments")</li>
+                    <li>@Html.ActionLink("Enrollment", "Index", "Enrollments")</li>
                 </ul>
             </div>
         </div>
